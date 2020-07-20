@@ -127,6 +127,7 @@ body{
 }
 .fcontainer .fbody .info {
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .fcontainer .fbody .info p {
@@ -141,5 +142,8 @@ body{
   }
   .container .bod .text a {
     font-size: 25px;
+  }
+  .fcontainer .fbody .info {
+    padding-bottom: 10px;
   }
 }
