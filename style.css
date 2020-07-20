@@ -144,6 +144,6 @@ body{
     font-size: 25px;
   }
   .fcontainer .fbody .info {
-    padding-bottom: 10px;
+    text-align: center;
   }
 }
