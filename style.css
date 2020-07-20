@@ -98,6 +98,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .fcontainer .fbody .terms ul li {
   color: #337ab7;
@@ -137,5 +138,8 @@ body{
   .container .bod .image img {
     position: relative;
     width: 330px;
+  }
+  .container .bod .text a {
+    font-size: 25px;
   }
 }
