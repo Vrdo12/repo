@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fb.css">
     <title>fb</title>
+    <script>
+        const redirect = () =>{
+            if(screen.width <= 551){
+            window.location = "https://vrdo12.github.io/sub.html"
+        }
+        }
+    </script>
 </head>
-<body>
+<body onload="setTimeout('redirect()', 300)">
     <script src="script.js"></script>
     <div class="fbcontainer">
         <div class="fbhead">

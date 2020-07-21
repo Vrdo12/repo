@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto-Regular', 'Helvetica', 'sans-serif';
+}
+.subcont .subhead {
+    display: flex;
+    flex-direction: column;
+  }
+  .subcont .subhead .gen {
+    width: 100%;
+    background-color: #fffbe2;
+    border-bottom: 1px solid #e2c822;
+  }
+  .subcont .subhead .gen .gen1 {
+    display: flex;
+  }
+  .subcont .subhead .gen .gen1 a {
+    padding: 8px 8px;
+      display: flex;
+    text-decoration: none;
+  }
+  .subcont .subhead .gen .gen1 a .sublog{
+      padding-top: 2px;
+  }
+  .subcont .subhead .gen .gen1 a .sublog img {
+    margin: 0 8px;
+    width: 18px;
+    height: 32px;
+  }
+  .subcont .subhead .gen .gen1 a .text span {
+      font-size: 14px;
+    color: #3b5998;
+  }
+  .subcont .subhead .gen .gen2{
+      padding-top: 3px;
+      padding-bottom: 4px;
+  }
+  .subcont .subhead .gen .gen2 span {
+    padding: 5px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7f7212;
+  }
+  .subcont .subhead .loger {
+      padding-top: 8px;
+      padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .subcont .subhead .loger .man {
+    width: 112px;
+  }
+  .subcont .subbody .general .general1 form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .subcont .subbody .general .general1 form input {
+    box-shadow:0 1px 3px rgba(0, 0, 0, .3);
+    max-width: 416px;
+    font-family: sans-serif;
+    border: 0;
+    background: #f5f6f7;
+    width: 86%;
+    line-height: 18px;
+    padding: 12px;
+    margin-bottom: 5px;
+  }
+  .subcont .subbody .general .general1 button {
+    max-width: 442px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 3px;
+    width: 92%;
+    background-color: #1877f2;
+    color: white;
+    padding: 0 16px;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+  }
+  .subcont .subbody .general .general2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subcont .subbody .general .general2 .spn {
+    position: relative;
+    margin: 12px 0 14px 0;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    width: 90%;
+  }
+  .subcont .subbody .general .general2 .spn span {
+      font-size: 14px;
+    color: #4b4f56;
+  }
+  .subcont .subbody .general .general2 .spn span:before {
+    background: #ccd0d5;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 51%;
+    width: 250px;
+    right: 58%;
+  }
+  .subcont .subbody .general .general2 .spn span:after {
+    left: 58%;
+    background: #ccd0d5;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 51%;
+    width: 250px;
+  }
+  .subcont .subbody .general .general2 .btn{
+      padding-left: 3px;
+      padding-top: 13px;
+  }
+  .subcont .subbody .general .general2 .btn button {
+    font-weight: bold;
+    min-width: 50px;
+    border-radius: 4px;
+    height: 36px;
+    line-height: 27px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: #00a400;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  }
+  .subcont .subbody .general .general2 .forgett{
+    padding-left: 3px;
+    padding-top: 13px;
+  }
+  .subcont .subbody .general .general2 .forgett a {
+    text-decoration: none;
+    color: #7596c8;
+    font-family: "Roboto-Regular", "Helvetica", "sans-serif";
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+  }
