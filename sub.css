@@ -71,6 +71,9 @@ body{
     padding: 12px;
     margin-bottom: 7px;
   }
+  .subcont .subbody .general .general1 form input:focus {
+    outline: none;
+  }
   .subcont .subbody .general .general1 button {
     max-width: 442px;
     margin-top: 6px;
@@ -151,4 +154,62 @@ body{
     font-size: 14px;
     line-height: 16px;
     cursor: pointer;
+  }
+  .foot {
+    padding-top: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .foot .geni {
+    width: 100%;
+    display: flex;
+  }
+  .foot .geni .part1 {
+    text-align: center;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .foot .geni .part1 a {
+    color: #576b95;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+  }
+  .foot .geni .part2 {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .foot .geni .part2 a {
+    color: #576b95;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+  }
+  .foot .geni .part1 span {
+    color: #90949c;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .subcont .corp{
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .subcont .corp span{
+    color: grey;
+    font-size: 12px;
+    line-height: 15px;
   }
