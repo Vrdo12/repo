@@ -69,7 +69,7 @@ body{
     width: 86%;
     line-height: 18px;
     padding: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
   }
   .subcont .subbody .general .general1 button {
     max-width: 442px;
@@ -83,6 +83,7 @@ body{
     font-size: 14px;
     height: 36px;
     line-height: 36px;
+    font-weight: bold;
   }
   .subcont .subbody .general .general2 {
     width: 100%;
