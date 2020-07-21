@@ -72,6 +72,7 @@ body{
     align-items: center;
     height: 100%;
     width: 40px;
+    color: white;
     background-color: #3578e5;
   }
   .fbcontainer .fbbody .gen .nofication .ico svg {
